@@ -1,0 +1,40 @@
+RESPONSABILIDADE 4 - CONFERÊNCIA ENTRE FONTES (ano 2023)
+
+1. CÓDIGOS DE MUNICÍPIO (IDEB x CENSO)
+Municípios no IDEB: 5571 | no Censo (recorte público): 5570
+Códigos com 7 dígitos: IDEB True | Censo True
+No IDEB e fora do Censo: 1 -> [['5101837', 'Boa Esperança do Norte', 'MT']]
+No Censo e fora do IDEB: 0
+(Arquivo do IBGE não informado: conferência com o IBGE pendente.)
+
+2. PROBLEMAS NO IDEB
+Linhas por rede: {'Pública': 16700, 'Estadual': 13953, 'Municipal': 9467, 'Federal': 562}
+A rede 'Pública' é o TOTAL (estadual + municipal + federal) do município: não somar com as outras.
+Cobertura do IDEB observado por etapa e rede:
+                         linhas  com_ideb  pct_com_ideb
+ETAPA         REDE                                     
+Anos Finais   Estadual     4907      3554          72.4
+              Federal        24        19          79.2
+              Municipal    3913      3195          81.7
+              Pública      5569      5382          96.6
+Anos Iniciais Estadual     3483      1190          34.2
+              Federal        16        14          87.5
+              Municipal    5450      5241          96.2
+              Pública      5568      5430          97.5
+Ensino Médio  Estadual     5563      5063          91.0
+              Federal       522       146          28.0
+              Municipal     104        40          38.5
+              Pública      5563      5065          91.0
+IDEB vazio: 6343 de 40682 linhas
+IDEB vazio mas com nota Saeb: 8 linhas (falta o indicador de rendimento)
+IDEB igual a 10 (teto da escala): 2 linhas
+
+3. CRUZAMENTO IDEB x INFRAESTRUTURA
+Linhas do IDEB com infraestrutura correspondente no Censo: 40674 de 40682
+Linhas com IDEB E infraestrutura (utilizáveis), por etapa e rede:
+REDE           Estadual  Federal  Municipal  Pública
+ETAPA                                               
+Anos Finais        3554       19       3195     5382
+Anos Iniciais      1190       14       5241     5430
+Ensino Médio       5063      146         40     5065
+Arquivo salvo: dados/organizados/ideb_infra_municipio_2023.csv
