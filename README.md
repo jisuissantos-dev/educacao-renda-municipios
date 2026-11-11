@@ -2,7 +2,7 @@
 
 Disciplina: Banco de Dados I | Prof.: Pedro Paz | Fase 01 | Ano de referência: 2023
 
-Equipe: Maria de Jesus Silva dos Santos, Ravi, Felipe, Gabriel Alves, Mayke
+Equipe: Maria de Jesus, Ravi, Felipe, Gabriel Alves, Mayke
 
 ## 1. Tema e subtema
 
@@ -21,7 +21,7 @@ Equipe: Maria de Jesus Silva dos Santos, Ravi, Felipe, Gabriel Alves, Mayke
 
 ### Principais números da análise preliminar
 
-- **IDEB 2023:** 40.682 linhas, das quais 6.343 (15,6%) sem valor. Os vazios aparecem como "-" na planilha e foram convertidos para nulo.
+- **IDEB 2023:** 40.682 linhas, das quais 6.343 (15,6%) sem valor.
 - **Censo Escolar 2023:** 217.625 escolas em 5.570 municípios. O recorte usado é de escolas públicas em atividade: 137.914 escolas.
 - **Cruzamento IDEB x Censo:** 40.674 das 40.682 linhas do IDEB (99,98%) têm infraestrutura correspondente.
 - **Linhas sem infraestrutura (8):** 6 de Boa Esperança do Norte (MT), município novo, instalado em 2025 e por isso fora do Censo 2023, e 2 de ensino médio federal (Pontão, RS, e Campo Verde, MT).
@@ -42,8 +42,8 @@ Equipe: Maria de Jesus Silva dos Santos, Ravi, Felipe, Gabriel Alves, Mayke
 
 A equipe não fez reuniões presenciais. O trabalho foi combinado por conversas no grupo de WhatsApp, nos dias abaixo. Nessas conversas foram escolhidos o tema e o subtema, divididas as tarefas entre as 5 pessoas e definido o ano de referência (2023).
 
-| Data | Quem participou | O que foi decidido |
-|---|---|---|
+| Data | Quem participou |
+|---|---|
 | 28/10 | Equipe (grupo de WhatsApp) |
 | 29/10 | Equipe (grupo de WhatsApp) |
 | 31/10 | Equipe (grupo de WhatsApp) |
